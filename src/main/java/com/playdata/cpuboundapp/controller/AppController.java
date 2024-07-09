@@ -21,7 +21,7 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "<h1 style='color:red;'>hello swu~~~~~~~~</h1>";
+        return "hello dongdong";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
